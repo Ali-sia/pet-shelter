@@ -1,6 +1,7 @@
 exports.GENDERS_ENUM = {
   FEMALE: 'female',
   MALE: 'male',
+  ALL: 'male,female',
 };
 
 exports.COLORS_ENUM = {
@@ -24,7 +25,31 @@ exports.COLORS_ENUM = {
   LYNX: 'Lynx',
   SMOKE: 'Smoke',
   BICOLOR: 'Bicolor',
+
+  ALL: 'Black,White,Gray,Tabby,Orange,Calico,Tuxedo,Siamese,Torbie,Brown,Cream,Blue,Lilac,Fawn,Silver,Cinnamon,Chocolate,Lynx,Smoke,Bicolor',
 };
+// ALL: [
+//   'Black',
+//   'White',
+//   'Gray',
+//   'Tabby',
+//   'Orange',
+//   'Calico',
+//   'Tuxedo',
+//   'Siamese',
+//   'Torbie',
+//   'Brown',
+//   'Cream',
+//   'Blue',
+//   'Lilac',
+//   'Fawn',
+//   'Silver',
+//   'Cinnamon',
+//   'Chocolate',
+//   'Lynx',
+//   'Smoke',
+//   'Bicolor',
+// ],
 
 exports.CITY_ENUM = {
   VINNYTSIA: 'Vinnytsia',
@@ -51,9 +76,38 @@ exports.CITY_ENUM = {
   CHERKASY: 'Cherkasy',
   CHERNIHIV: 'Chernihiv',
   CHERNIVTSI: 'Chernivtsi',
+
+  ALL: 'Vinnytsia,Volyn,Dnipropetrovsk,Donetsk,Zhytomyr,Zakarpattia,Zaporizhzhia,Ivano-Frankivsk,Kyiv,Kirovohrad,Luhansk,Lviv,Mykolaiv,Odessa,Poltava,Rivne,Sumy,Ternopil,Kharkiv,Kherson,Khmelnytskyi,Cherkasy,Chernihiv,Chernivtsi',
 };
+// ALL: [
+//   'Vinnytsia',
+//   'Volyn',
+//   'Dnipropetrovsk',
+//   'Donetsk',
+//   'Zhytomyr',
+//   'Zakarpattia',
+//   'Zaporizhzhia',
+//   'Ivano-Frankivsk',
+//   'Kyiv',
+//   'Kirovohrad',
+//   'Luhansk',
+//   'Lviv',
+//   'Mykolaiv',
+//   'Odessa',
+//   'Poltava',
+//   'Rivne',
+//   'Sumy',
+//   'Ternopil',
+//   'Kharkiv',
+//   'Kherson',
+//   'Khmelnytskyi',
+//   'Cherkasy',
+//   'Chernihiv',
+//   'Chernivtsi',
+// ],
 
 exports.STATUS_ENUM = {
   DOMESTICATED: 'domesticated',
   HOMELESS: 'homeless',
+  ALL: 'domesticated,homeless',
 };
