@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', ctrl.getCatsList);
 router.post('/', ctrl.addNewCat);
 
-router.get('/:catId', ctrl.getCat);
+router.get('/:catId', ctrl.getCatById);
 // router.put('/:catId', ctrl.updateCat);
 // router.delete('/:catId', ctrl.deleteCat);
 

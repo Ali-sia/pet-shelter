@@ -1,9 +1,9 @@
 const addNewCat = require('./addNewCat');
 const getCatsList = require('./getCatsList');
-const getCat = require('./getCat');
+const getCatById = require('./getCatById');
 
 module.exports = {
   addNewCat,
   getCatsList,
-  getCat,
+  getCatById,
 };
