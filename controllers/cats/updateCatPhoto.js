@@ -33,8 +33,6 @@ const updateCatPhoto = catchAsync(async (req, res, next) => {
     public_id: photoName,
     folder: 'public/photos',
     crop: 'fill',
-    width: 200,
-    height: 200,
     gravity: 'face',
   });
 
