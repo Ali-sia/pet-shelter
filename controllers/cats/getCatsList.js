@@ -39,7 +39,6 @@ const getCatsList = catchAsync(async (req, res, next) => {
   const paginationLimit = +limit || 5;
   const skip = (paginationPage - 1) * paginationLimit;
 
-  // const cats = await Todo.find().skip(skip).limit(paginationLimit);
   catsQuery.skip(skip).limit(paginationLimit);
   const catsCount = await Cat.count(catsQuery);
   const result = await catsQuery;
