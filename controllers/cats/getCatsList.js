@@ -36,7 +36,7 @@ const getCatsList = catchAsync(async (req, res, next) => {
   const catsQuery = Cat.find(searchOptions);
 
   const paginationPage = +page || 1;
-  const paginationLimit = +limit || 5;
+  const paginationLimit = +limit || 10;
   const skip = (paginationPage - 1) * paginationLimit;
 
   catsQuery.skip(skip).limit(paginationLimit);
