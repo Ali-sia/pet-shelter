@@ -25,8 +25,9 @@ exports.COLORS_ENUM = {
   LYNX: 'Lynx',
   SMOKE: 'Smoke',
   BICOLOR: 'Bicolor',
+  TORTOISESHELL: 'Tortoiseshell',
 
-  ALL: 'Black,White,Gray,Tabby,Orange,Calico,Tuxedo,Siamese,Torbie,Brown,Cream,Blue,Lilac,Fawn,Silver,Cinnamon,Chocolate,Lynx,Smoke,Bicolor',
+  ALL: 'Black,White,Gray,Tabby,Orange,Calico,Tuxedo,Siamese,Torbie,Brown,Cream,Blue,Lilac,Fawn,Silver,Cinnamon,Chocolate,Lynx,Smoke,Bicolor,Tortoiseshell',
 };
 // ALL: [
 //   'Black',
